@@ -16,4 +16,5 @@ artifacts:
   files:
     - target/cicd-sample-webapp-0.0.1-SNAPSHOT.jar
     - appspec.yml
+    - scripts/*.sh
   discard-paths: yes

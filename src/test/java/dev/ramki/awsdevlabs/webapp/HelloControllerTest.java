@@ -24,6 +24,6 @@ public class HelloControllerTest {
 	public void getHello() throws Exception {
 		mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
-				.andExpect(content().string(equalTo("CICD Sample WebApp is successfuly Built by CodeBuild and Deployed by Amazon Elastic Beanstalk with code pipeline!")));
+				.andExpect(content().string(equalTo("CICD Sample WebApp is successfuly Built by CodeBuild and Deployed by Elastic Beanstalk with code pipeline!")));
 	}
 }

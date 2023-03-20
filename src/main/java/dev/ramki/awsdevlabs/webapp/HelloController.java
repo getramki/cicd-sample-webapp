@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "CICD Sample WebApp is successfuly Built by CodeBuild and Deployed by Elastic Beanstalk with code pipeline!";
+		return "CICD Sample WebApp is successfuly Built by CodeBuild and Deployed by Amazon Elastic Beanstalk with code pipeline!";
 	}
 
 }
